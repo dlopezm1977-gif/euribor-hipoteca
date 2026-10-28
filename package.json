@@ -1,0 +1,24 @@
+{
+  "name": "euribor-hipoteca",
+  "private": true,
+  "version": "0.2.2",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test scripts/sync-euribor.test.cjs src/lib/mortgage.test.js",
+    "sync:euribor": "node scripts/sync-euribor.cjs"
+  },
+  "dependencies": {
+    "firebase": "^12.16.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "dotenv": "^16.6.1",
+    "firebase-admin": "^13.10.0",
+    "vite": "^5.4.19"
+  }
+}

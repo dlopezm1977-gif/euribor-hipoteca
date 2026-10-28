@@ -1,0 +1,33 @@
+﻿{
+  "name": "Euríbor Hipoteca",
+  "short_name": "Euríbor",
+  "description": "Sigue el Euríbor y simula las revisiones de tu hipoteca.",
+  "lang": "es",
+  "start_url": "/euribor-hipoteca/",
+  "scope": "/euribor-hipoteca/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#09203a",
+  "theme_color": "#102a43",
+  "icons": [
+    {
+      "src": "/euribor-hipoteca/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/euribor-hipoteca/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/euribor-hipoteca/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
+
